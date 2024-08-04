@@ -6,9 +6,8 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-      <h1></h1>
-      <Weather/>
-      <footer>
+      <Weather defaultCity="stockholm"/>
+      <footer className='footer'>
         {' '}
         This project was coded by Edona Rexhaj and is{' '}
         <a
