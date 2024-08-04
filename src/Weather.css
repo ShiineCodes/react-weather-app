@@ -1,8 +1,22 @@
+
+
+
 .Weather {
   border: 1px solid #dadde1;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: monospace;
   padding: 16px;
   border-radius: 4px;
+  background-image: url(https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 30px 50px rgba(185, 168, 226, 0.08);
+    border-radius: 15px;
+    margin: 45px auto;
+    padding: 30px 30px 10px 30px;
+    max-width: 600px;
+    max-height: 1500px;
+    padding-bottom: 100px;
+
 }
 
 .Weather form {
@@ -10,13 +24,17 @@
 }
 
 .Weather h1 {
-  color: rgb(174, 62, 218);
+  color: rgb(136, 50, 170);
   margin: 20px 0 0 0;
-  font-size: 19px;
-  font-weight: 700;
-  line-height: 22px;    
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 22px;
 }
 
+.container {
+  max-width: 750px;
+  margin-top: 30px;
+}
 
 .Weather ul {
   margin: 0;
@@ -24,15 +42,14 @@
 }
 
 .Weather li {
-  color: rgb(94, 94, 94);
-  color-scheme:light;
+  color: rgb(5, 5, 5);
+  color-scheme: light;
   display: block;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
   height: 16px;
   line-height: 16px;
 }
-
 
 .Weather .temperature {
   color: rgb(32, 33, 36);
@@ -51,14 +68,20 @@
 }
 
 .Weather .unit {
-  color: rgb(94, 94, 94);
+  color: rgb(10, 10, 10);
   font-size: 16px;
   font-weight: 400;
   position: relative;
   top: -22px;
   line-height: 1;
-  }
+}
 
-  .Weather a {
-      text-decoration: none;
-  }
+.Weather a {
+  text-decoration: none;
+}
+
+
+  body {
+  background-color: antiquewhite;
+  font-family: monospace;
+  } 
