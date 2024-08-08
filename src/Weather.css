@@ -1,18 +1,16 @@
 .Weather {
-  border: 1px solid #dadde1;
   font-family: monospace;
   padding: 16px;
   border-radius: 4px;
   background-image: url(https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0 30px 50px rgba(185, 168, 226, 0.08);
+  box-shadow: 0 30px 50px rgb(180 110 167 / 50%);
   border-radius: 15px;
   margin: 45px auto;
   padding: 30px 30px 10px 30px;
   max-width: 600px;
   max-height: 1500px;
-  padding-bottom: 100px;
 }
 
 .Weather form {
@@ -50,11 +48,12 @@
 .Weather .temperature {
   color: rgb(32, 33, 36);
   display: inline;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 400;
   height: auto;
   letter-spacing: normal;
   line-height: 64px;
+  font-family: monospace;
 }
 
 .Weather canvas {
@@ -77,6 +76,9 @@
   color: rgb(211, 72, 169);
 }
 
+.mt-3 {
+  padding-bottom: 30px;
+}
 body {
   background-color: antiquewhite;
   font-family: monospace;

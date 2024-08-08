@@ -1,7 +1,15 @@
 .WeatherForecast {
  text-align: center; 
+ color:rgb(17, 17, 17);
+ padding-bottom: inherit;
+ padding-top: 30px;
+ background-color: #ffffff2b;
+ margin-left: -30px;
+ margin-right: -30px;
+ margin-bottom: -10px;
 }
 
-.WeatherForecast-temperature-min{
-  opacity: 0.8;
+.WeatherForecast-temp-min {
+  opacity: 0.6;
+  margin-left: 8px;
 }
